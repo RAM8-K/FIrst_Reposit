@@ -1,12 +1,23 @@
 ﻿using System;
+using System.Threading.Channels;
 
-namespace ConsoleApp1
+class MainClass
 {
-    internal class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-        byte = 5;
-        }
+        var a = 6;
+        var b = 7;
+
+        var c = a < b ? 543 : 0;
+
+        Console.WriteLine(c);
+
+
     }
+
+
+
+
+
+
 }
